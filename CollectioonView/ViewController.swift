@@ -46,6 +46,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         return actors.count
     }
     
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell:actorCell=collectionView.dequeueReusableCell(withReuseIdentifier: "actorCell", for: indexPath) as! actorCell
         
