@@ -26,11 +26,11 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         
         ["name":"Shahrukh Khan","movie":"Movie: Main Hoon na","song":"Song: Tumse Mil..","imageName":"https://s-media-cache-ak0.pinimg.com/originals/ad/9b/b1/ad9bb1d4c11a44661e9753bfa96da853.jpg"],
         
-        ["name":"Varun Dhavan","movie":"Movie: Main Tera Hiro","song":"Song: Galat Baat Hai..","imageName":"http://7-themes.com/data_images/out/18/6831090-varun-dhawan.jpg"]
+        ["name":"Varun Dhavan","movie":"Movie: Main Tera Hiro","song":"Song: Galat Baat Hai..","imageName":"http://static.dnaindia.com/sites/default/files/styles/half/public/2016/07/27/486027-varun7.jpg?itok=0EUGX7Bh"]
         
              ]
     
-  
+ // http://7-themes.com/data_images/out/18/6831090-varun-dhawan.jpg
    
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,5 +63,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 
         return cell
     }
-}
+   
+    
+      }
 
